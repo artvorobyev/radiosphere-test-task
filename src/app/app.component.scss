@@ -33,15 +33,15 @@
     background-color: orange;
   }
 
-  &.button--type-actionNext {
+  &--type-actionNext {
     background-color: green;
   }
 
-  &.button--type-actionDone {
+  &--type-actionDone {
     grid-column: 1 / 4;
   }
 
-  &.button--type-actionBack {
+  &--type-actionBack {
     grid-column: 1 / 3;
   }
 }
