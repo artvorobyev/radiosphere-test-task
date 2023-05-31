@@ -1,0 +1,47 @@
+.root {
+  max-width: 300px;
+  margin: 30px auto;
+}
+
+.header {
+  margin-bottom: 10px;
+}
+
+.input {
+  font-size: 20px;
+  padding: 10px;
+  text-align: right;
+  width: 100%;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.done-menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.button {
+  padding: 20px 0;
+
+  &--type-actionDelete {
+    background-color: orange;
+  }
+
+  &.button--type-actionNext {
+    background-color: green;
+  }
+
+  &.button--type-actionDone {
+    grid-column: 1 / 4;
+  }
+
+  &.button--type-actionBack {
+    grid-column: 1 / 3;
+  }
+}
